@@ -13,7 +13,7 @@ void ATankAIController::BeginPlay() {
 	}
 	else {
 		UE_LOG(LogTemp, Warning, TEXT("I am controlling %s"), *controlledTank->GetName());
-		UE_LOG(LogTemp, Warning, TEXT("And player i %s"), *playerTank->GetName());
+		UE_LOG(LogTemp, Warning, TEXT("And player is %s"), *playerTank->GetName());
 	}
 }
 
